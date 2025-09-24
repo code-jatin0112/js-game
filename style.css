@@ -1,29 +1,28 @@
-body {
-  text-align: center;
-  font-family: sans-serif;
-  background-color: #f0f0f0;
-}
-#game-board {
+main{
+  height: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 2rem;
-  margin-top: 30px;
+  align-items: center;
 }
-.mole {
+#container{
+  border: 1px solid grey;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #c5fae6;
+}
+.mole{
   width: 80px;
   height: 80px;
-  background-color: grey;
-  border: none;
   border-radius: 50%;
-  transition: 0.3s;
-  cursor: pointer;
+  gap: 10px;
+   background-color: blueviolet; 
 }
-.mole:hover {
-  background-color: #555;
-}
-.active {
+.active{
   background-color: green;
-}
-.hidden {
-  visibility: hidden;
 }

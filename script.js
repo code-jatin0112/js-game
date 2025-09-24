@@ -35,3 +35,4 @@ function stopGame() {
 restartBtn.addEventListener('click', () => {
   startGame();
 });
+startGame();

@@ -1,23 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<body>
 <main>
-  <h1>Whack-a-Mole</h1>
-  <div id="scoreboard">Score: <span id="score">0</span></div>
-  <section id="game-board">
-    <button id="mole-1" class="mole"></button>
-    <button id="mole-2" class="mole active"></button>
-    <button id="mole-3" class="mole"></button>
-  </section>
-</main>
+<div id="container">
+<h1>Whack-a-Mole</h1>
+<div id="scoreboard">Score: <span id="score">0</span></div>
+<section>
+  <button id="mole-1" class="mole"></button>
+  <button class="mole" id="mole-2"></button>
+  <button class="mole" id="mole-3"></button>
+</section>
 <p id="win-message" style="display:none;">🎉 You Win!</p>
 <button id="restart-btn" style="display:none;">Restart</button>
- <script src="script.js"></script>
+</div>
+</main>
+<script src="script.js" ></script>
 </body>
 </html>
